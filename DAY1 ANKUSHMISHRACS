@@ -1,0 +1,39 @@
+//  Ankush Mishra 
+// I am in 1st  semester so i am making  codea  as per my learning  per  Day.
+// Find greatest of 4 numbers ;
+
+#include<stdio.h>
+int main (){
+int number1,number2,number3,number4;
+
+printf ("Enter the number 1\n");
+scanf("%d",&number1);
+
+printf ("Enter the number 2\n");
+scanf("%d",&number2);
+
+printf ("Enter the number 3\n");
+scanf("%d",&number3);
+
+printf ("Enter the number 4\n");
+scanf("%d",&number4);
+
+
+if((number1>number2)&&(number1>number2)&&(number1>number2))
+{printf("The greatest number is: %d",number1);
+}
+else if((number2>number1)&&(number2>number3)&&(number2>number4))
+{printf("The greatest number is: %d",number2);
+}
+else if((number3>number1)&&(number3>number2)&&(number3>number4))
+{printf("The greatest number is: %d",number3);
+}
+
+else if((number4>number2)&&(number4>number3)&&(number4>number1))
+{printf("The greatest number is: %d",number4);
+}
+
+
+    return 0;
+}
+
