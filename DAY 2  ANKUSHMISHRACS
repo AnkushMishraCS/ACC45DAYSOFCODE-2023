@@ -1,0 +1,23 @@
+//My name is Ankush Mishra
+//I am in 1 SEMESTER so i am am making  codes  as per my learnings.
+
+//check if the number is divisible by 97 or not?
+
+  #include<stdio.h>
+#include<math.h>
+
+int main(){
+int a, divisible;
+
+printf("Enter a number \n ");
+scanf("%d",&a);
+
+
+divisible = a % 97;  
+
+ 
+(divisible==0) ? printf("Yes your number is divisible by 97"):printf("Sorry your number is not divisible by 97 ");
+
+
+ return 0;
+}
