@@ -1,0 +1,20 @@
+//My name is Ankush Mishra  ,  I am in BCA 1st   semester .
+//I am solving problems upto my learnings.
+//Check  if the alphabet entered is lowercase or uppercase.
+
+  #include<stdio.h>
+
+int main(){
+char ch;
+// 97-122 lowercase
+printf("Enter the character\n");
+scanf("%c",&ch);
+
+if (ch>=97&&ch<=122)
+printf("Your character is lowercase  ");
+else 
+printf("Your character is uppercase  ");
+
+
+    return 0;
+}
