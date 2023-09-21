@@ -1,0 +1,17 @@
+//my name is Ankush Mishra  .
+//I am in BCA 1 semester , So i am coding as per my knowledge .
+// This is   print natural number program, using while loop.
+#include<stdio.h>
+int main(){
+int a,b ;
+a=0;
+printf("Enter the number\n");
+scanf("%d",&b);
+do {
+    printf("natural numbers are :%d\n",a+1);
+    a++;
+}while(a<b);
+
+
+    return 0;
+} 
