@@ -1,0 +1,19 @@
+//my name is Ankush Mishra.
+//I am in BCA 1 semester,I am making  programs  as per my learnings.
+// This  program is to find  summ of numbers 1-10 .
+#include<stdio.h>
+
+
+int main(){
+
+int a ,sum;
+sum=0;
+
+do
+{ sum+=a;
+a++;
+    
+} while (a<=10);
+printf("Sum is :%d",sum);
+   return 0;
+}
