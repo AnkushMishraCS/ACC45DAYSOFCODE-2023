@@ -1,0 +1,16 @@
+//My name is Ankush Mishra.
+//I am in BCA  1 semester , So i am making prorgrams as per my knowledge.
+//This Program= Enter  any number and you will get its multiplications upto 10.in single input.
+#include<stdio.h>
+int main(){
+int a =1 ,b;
+
+printf("Enter any number ");
+scanf("%d",&b);
+for(b>0;a<=10;a++)
+{ 
+printf("%d\n",a*b);
+}
+return 0;
+
+}
