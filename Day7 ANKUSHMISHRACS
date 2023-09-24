@@ -1,0 +1,17 @@
+//My name is Ankush Mishra .
+//I am in BCA 1 semester, So i am solving programs as per my knowledge.
+//This programm is About : how to get Factorial of any number.
+#include<stdio.h>
+int main(){
+int a,b=1,factorial=0;
+
+printf("Enter the number");
+scanf("%d",&a)
+for(b;b<a;)
+{ b++;
+factorial*=b;
+}
+printf("Factorial is  %d",factorial);
+return 0;
+
+}
