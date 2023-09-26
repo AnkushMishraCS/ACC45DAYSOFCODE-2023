@@ -1,0 +1,18 @@
+//My name is Ankush Mishra.
+//I am in BCA 1 semester ,So i am making programs as per my learnings.
+//This code is : How to swap two numbers given by the user.
+#include<stdio.h>
+int main (){
+int num1,num2;
+
+printf("Enter the First number\n");
+scanf("%d",&num1);
+printf("Enter the Second number\n");
+scanf("%d",&num2);
+printf("Swaping numbers........\n");
+printf("The First number is %d\n",num2);
+printf("The Second number is %d\n",num1);
+printf("THANKYOU");
+return 0 ;
+
+}
