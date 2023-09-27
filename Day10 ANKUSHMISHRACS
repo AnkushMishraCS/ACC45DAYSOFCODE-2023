@@ -1,0 +1,15 @@
+//My name is Ankush Mishra.
+// I am in BCA 1 semester ,I am making codes as per my knowledge.
+#include<stdio.h>
+int main(){
+int enter;
+int first;
+
+printf("Enter any number ");
+scanf("%d",&enter);
+first=enter;
+while (first>=10)
+{first=first/10;}
+printf("First digit=%d",first);
+return 0;
+}
