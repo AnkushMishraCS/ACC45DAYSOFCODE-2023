@@ -1,0 +1,17 @@
+//My name is Ankush Mishra.
+//I am in 1 semester  BCA.So,I am making codes as per my knowledge.
+//This program is about printing odd numbers  upto a given number, by user.
+#include<stdio.h>
+int main(){
+int a ,b;
+printf("Enter the number ");
+scanf("%d",&a);
+printf("All odd numbers from 1 to %d are : \n",a);
+for (b=1;b<=a;b++)
+{if (b%2!=0)
+{printf("odd numbers are : %d\n",b);
+}
+    
+}
+return 0;
+}
