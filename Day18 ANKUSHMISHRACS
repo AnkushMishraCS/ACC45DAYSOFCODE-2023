@@ -1,0 +1,15 @@
+//I am in 1 semester BCA ,
+//So i am making codes as per my knowledge.
+//This program is about print a numbers  between a range .
+#include<stdio.h>
+int main(){
+    int m=0, n=0;
+      printf("Enter the range: ");
+    scanf("%d", &m);
+    scanf("%d", &n);
+     while(m<=n){
+       printf("%d ", m);
+        m++;
+    }
+     return 0;
+}
