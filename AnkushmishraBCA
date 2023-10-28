@@ -1,0 +1,18 @@
+// I am in 1 semester so making codes as per my learnings .
+#include<stdio.h>
+int main()
+{
+  printf("Enter the row size:");
+  int row,in,mom,p;
+  scanf("%d",&row_size);
+  for( mom=1;mom<=row;mom++)
+  {
+   for( in=1;in<mom;in++)
+    printf(" ");
+
+   for(p=row;p>=mom;p--)
+    printf("* ");
+
+   printf("\n");
+}}
+//Thanks a lot  for this 45 days of code opportunity . I  am in 1 semester and currently doing BCA in Amity University.
